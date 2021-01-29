@@ -52,13 +52,13 @@ First, set the number of samples.
 Second, turn off the debug mode (1 to turn on the debug mode).
 
 ```
-?- set_debug(0).
+   ?- set_debug(0).
 ```
 
 Now query. The first argument is query, second is the list of evidence and P is the output probability
 
 ```
-?- query(bp~=low, [lvfailure~=false, cvp~=normal, hr~=normal, expco2~=low, ventalv~=low, ventlung~=zero], P).
+   ?- query(bp~=low, [lvfailure~=false, cvp~=normal, hr~=normal, expco2~=low, ventalv~=low, ventlung~=zero], P).
 ```
 
 
